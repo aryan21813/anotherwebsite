@@ -1,9 +1,46 @@
-div{
-    background-color: aqua;
-    height:60px;
-}
-
-.fa-house{
-font-size:30px;
-padding-top:15px;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    color: #0077cc;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  di{
+    align-items: right;
+  } 
