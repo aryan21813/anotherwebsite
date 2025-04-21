@@ -1,49 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Aryan Singh</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Login & Register</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>About Us</h1>
-    <p>Learn more about our team and what we do.</p>
-  </header>
+  <div class="container">
+    <h2 id="form-title">Login page</h2>
 
-  <main>
-    <section class="about">
-      <h2>Who We Are</h2>
-      <p> My name is Aryan Singh .I am a passionate Frontend Web Developer who loves turning ideas into beautiful, interactive websites. With a strong foundation in HTML, CSS, and JavaScript, I specialize in creating responsive and user-friendly web experiences that not only look great but also function seamlessly across all devices.
+    <form id="authForm">
+      <input type="text" id="username" placeholder="Username" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <button type="submit" id="submitBtn">Login</button>
+      <p id="toggleForm">
+        Don't have an account?
+        <a href="#" onclick="toggleForm()">Register</a>
+      </p>
+      <p id="message"></p>
+    </form>
+  </div>
 
-        My focus is on writing clean, maintainable code and continuously learning the latest trends and technologies in web development. Whether it's building a sleek landing page or a dynamic web application, I take pride in crafting intuitive interfaces that engage users and bring visions to life.
-        
-        </p>
-    </section>
-
-    <section class="team">
-      <h2>Our Team</h2>
-      <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?cs=srgb&dl=pexels-fauxels-3183150.jpg&fm=jpg" alt="Our Team" style="float: right; margin-left: 20px; width: 500px;" /> 
-      <p>At the heart of our success is a dedicated and passionate team that believes in the power of collaboration, creativity, and continuous learning. Each member brings unique skills, perspectives, and experiences that help us grow stronger together.
-
-        We are a team of curious minds, innovative thinkers, and problem-solvers who strive to make a positive impact through our work. Whether it's designing, developing, or discovering new ways to improve, we support one another and push boundaries to achieve excellence.</p>
-    </section>
-
-    <section class="mission">
-      <h2>Our Mission</h2>
-      <p>At [Your Company Name], our mission is simple but powerful: to put our best effort into learning, every single day. We understand that the world is constantly evolving, and to stay ahead, we must embrace a mindset of continuous growth and improvement. We are committed to cultivating an environment where curiosity is encouraged, knowledge is shared, and challenges are welcomed as opportunities for learning.
-
-        We believe that learning isn't just about acquiring new skills—it's about enhancing our ability to innovate, solve problems, and create meaningful solutions. By dedicating ourselves to learning, we ensure that our team is always ready to tackle any challenge and that our clients benefit from the latest insights and cutting-edge techniques.
-        
-        Through dedication, perseverance, and a passion for learning, we strive to make a lasting impact, both as individuals and as a team.
-        
-        </p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 AnotherWebsite. All rights reserved.</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
